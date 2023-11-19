@@ -1,9 +1,9 @@
 def calculator():
     try:
         a = float(input("Введите первое число: "))
-        num2 = float(input("Введите второе число: "))
+        b = float(input("Введите второе число: "))
         
-        result = a + num2
+        result = a + b
     
         print("Результат сложения:", result)
         
